@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarReservationSystem.Domain", "CarReservationSystem.Domain\CarReservationSystem.Domain.csproj", "{FC93F122-C1E0-4FC6-A435-BD94A8D860A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarReservationSystem.Application", "CarReservationSystem.Application\CarReservationSystem.Application.csproj", "{DCE17C19-A9B6-49DD-AEC7-24D5AA4E8139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarReservationSystem.Infrastructure", "CarReservationSystem.Infrastructure\CarReservationSystem.Infrastructure.csproj", "{8D4FCA8A-D6F2-4982-A184-83C7612D03D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarReservationSystem.API", "CarReservationSystem.API\CarReservationSystem.API.csproj", "{293A0ECA-275A-41EF-9B32-ABBF89FEB953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarReservationSystem.Tests", "CarReservationSystem.Tests\CarReservationSystem.Tests.csproj", "{6141001E-8CF6-4FB7-A67A-FC9A54663294}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC93F122-C1E0-4FC6-A435-BD94A8D860A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC93F122-C1E0-4FC6-A435-BD94A8D860A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC93F122-C1E0-4FC6-A435-BD94A8D860A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC93F122-C1E0-4FC6-A435-BD94A8D860A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE17C19-A9B6-49DD-AEC7-24D5AA4E8139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE17C19-A9B6-49DD-AEC7-24D5AA4E8139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE17C19-A9B6-49DD-AEC7-24D5AA4E8139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE17C19-A9B6-49DD-AEC7-24D5AA4E8139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4FCA8A-D6F2-4982-A184-83C7612D03D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4FCA8A-D6F2-4982-A184-83C7612D03D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4FCA8A-D6F2-4982-A184-83C7612D03D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4FCA8A-D6F2-4982-A184-83C7612D03D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293A0ECA-275A-41EF-9B32-ABBF89FEB953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293A0ECA-275A-41EF-9B32-ABBF89FEB953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293A0ECA-275A-41EF-9B32-ABBF89FEB953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293A0ECA-275A-41EF-9B32-ABBF89FEB953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6141001E-8CF6-4FB7-A67A-FC9A54663294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6141001E-8CF6-4FB7-A67A-FC9A54663294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6141001E-8CF6-4FB7-A67A-FC9A54663294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6141001E-8CF6-4FB7-A67A-FC9A54663294}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
